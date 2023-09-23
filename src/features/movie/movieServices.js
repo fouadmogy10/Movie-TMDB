@@ -1,4 +1,4 @@
-import { fetchDataFromApi } from "../../utils/baseURL"
+import { fetchDataFromApi } from "../../utils/baseURL.jsx"
 
 const getMD =(data)=>{
     return fetchDataFromApi(`/${data.type}/${data.id}`)
