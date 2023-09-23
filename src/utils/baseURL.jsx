@@ -1,6 +1,7 @@
 import axios from "axios";
 const base_url = axios.create({ baseURL: `${import.meta.env.VITE_API_URL}` });
 const TMDB_TOKEN = import.meta.env.VITE_TMDB_TOKEN;
+
 export const headers = {
   Authorization: "bearer " + TMDB_TOKEN,
 };

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchDataFromApi } from "./utils/baseURL.JS";
+import { fetchDataFromApi } from "./utils/baseURL.jsx";
 import Nav from "./components/Nav";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home";
