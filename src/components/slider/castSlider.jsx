@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 // import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
 import Cast from '../DetailsCards/Cast';
-const CastSlider = ({data ,crew,loading}) => {
+const CastSlider = ({data ,loading}) => {
   return (
     <>
     <Swiper

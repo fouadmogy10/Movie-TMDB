@@ -2,12 +2,14 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import Spinner from "../../components/Spinner.jsx";
 import MovieCard from "../../components/movieCard/MovieCard.jsx";
 import SearchHook from "../../hooks/SearchHook/SearchHook.js";
+import Meta from "../../components/Meta.jsx";
 
 const SearchPage = () => {
   const [data, pageNum, loading, query, fetchInitialData, fetchNextPageData] =SearchHook();
 
   return (
     <div className="min-h-screen  pt-[100px]">
+      <Meta title={`Search Page`} desc={`result of ${query}`}/>
       <div className="heeader py-5 w-full container">
         <h2 className=" md:text-3xl text-2xl font-semibold text-white mb-5">
           {`Search ${

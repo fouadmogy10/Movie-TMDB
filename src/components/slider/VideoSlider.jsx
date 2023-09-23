@@ -14,6 +14,7 @@ import Cast from '../DetailsCards/Cast';
 import VideoCard from '../DetailsCards/VideoCard';
 const VideoSlider = ({data ,loading}) => {
   return (
+
     <>
     <Swiper
       slidesPerView={1}

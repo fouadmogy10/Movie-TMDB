@@ -38,9 +38,9 @@ const MovieCard = ({movie,loading,endpoint}) => {
         </div>
       </div>
       <div className="px-5 py-2  text-center">
-        <h5 className="text-xl font-semibold tracking-tight  text-white line-clamp-1">
+        <span className="text-xl font-semibold tracking-tight  text-white line-clamp-1">
           {movie?.original_title}
-        </h5>
+        </span>
         <span className="text-gray-500 font-semibold tracking-tight" > {movie.release_date!==""&& dayjs(movie.release_date).format("MMM D, YYYY")}</span>
       </div>
     </div>

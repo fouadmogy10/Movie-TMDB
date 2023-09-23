@@ -1,6 +1,10 @@
 import React from "react";
 import { BiPlayCircle } from "react-icons/bi";
+import Vloader from "./Vloader";
 const VideoCard = ({ loading, video }) => {
+  if (loading) {
+    return <Vloader />;
+  }
   return (
     <>
       <div className="block text-center rounded-lg bg-transparent  ">

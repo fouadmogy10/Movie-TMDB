@@ -7,7 +7,6 @@ const CastLoader = props => (
     height={100}
     viewBox="0 0 500 300"
     backgroundColor="#0e3264"
-    foregroundColor="#dbdbdb"
     {...props}
   >
    
@@ -19,7 +18,7 @@ const CastLoader = props => (
 )
 
 CastLoader.metadata = {
-  filename: 'CastLoader', // filename of your loader
+  filename: 'CastLoader'
 }
 
 export default CastLoader

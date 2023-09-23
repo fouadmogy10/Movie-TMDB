@@ -4,6 +4,7 @@ import PaginationComponent from "../../components/Pagnation/Pagination";
 import { useDispatch, useSelector } from "react-redux";
 import { explore } from "../../features/movie/movieSlice";
 import MovieList from "../../components/movieList/movieList";
+import Meta from "../../components/Meta";
 
 const Explore = () => {
   const { mediaType } = useParams();
@@ -29,6 +30,8 @@ const Explore = () => {
 
 
   return (
+  <>
+  <Meta title={"Explore Page"} desc={"A sensual adventure up the Sea to Sky gondola in Squamish, BC. Plot summary · Add synopsis. Genre. Adventure. Parents guide."}/>
     <div className="min-h-screen  flex items-center justify-center pt-[100px]">
       <div className="heeader py-5 w-full container">
         <div className="md:flex flex-row md:justify-between justify-center items-center my-4">
@@ -60,6 +63,7 @@ const Explore = () => {
           <PaginationComponent  sort={Sort}/>
       </div>
     </div>
+  </>
   );
 };
 

@@ -6,6 +6,7 @@ import TopRated from './TopRated'
 import { useDispatch } from 'react-redux'
 import { useEffect } from 'react'
 import { resetDetails } from '../../features/movie/movieSlice'
+import Meta from '../../components/Meta'
 
 const Home = () => {
  const dispatch = useDispatch()
@@ -16,6 +17,7 @@ const Home = () => {
   return (
 
     <>
+     <Meta title={"Home Page"} desc={"Movie Streaming Site In 2023: Watch Movies And TV"}/>
     <HeroSection/>
     <Popular/>
     <Trending/>

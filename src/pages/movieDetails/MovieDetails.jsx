@@ -14,6 +14,7 @@ import CastSlider from "../../components/slider/castSlider";
 import Details from "./Details";
 import Slider from "../../components/slider/Slider";
 import VideoSlider from "../../components/slider/VideoSlider";
+import Meta from "../../components/Meta";
 const MovieDetails = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -45,6 +46,7 @@ const MovieDetails = () => {
   };
   return (
     <section className="details">
+       <Meta title={`${movieDetail?.title? movieDetail?.title: "Movie Id => id"}`} desc={`${movieDetail?.overview}`}/>
       {isLoading ? (
         <div className="container pt-[100px]">
           <DetailsLoader />
@@ -56,7 +58,6 @@ const MovieDetails = () => {
         />
       )}
       <div className="container">
-        {CC?.data?.cast?.length > 0 && (
           <div className="my-10 castSlider">
             <h2 className="text-2xl text-white font-semibold mb-10">
               Top Cast
@@ -66,8 +67,6 @@ const MovieDetails = () => {
               loading={CC.isLoading}
             />
           </div>
-        )}
-        {OF?.data?.length > 0 && (
           <div className="my-10 VideoSlider">
             <h2 className="text-2xl text-white font-semibold mb-10">
               Official Videos
@@ -77,8 +76,6 @@ const MovieDetails = () => {
               loading={CC.isLoading}
             />
           </div>
-        )}
-        {recommendations?.data?.length > 0 && (
           <div className="my-10 ">
             <h2 className="text-2xl text-white font-semibold mb-10">
               Recommendations
@@ -91,7 +88,6 @@ const MovieDetails = () => {
               endpoint={type}
             />
           </div>
-        )}
       </div>
     </section>
   );

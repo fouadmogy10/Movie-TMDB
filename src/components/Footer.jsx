@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="text-center">
             <ul className="flex flex-wrap items-center justify-center mb-6 text-sm  text-white  sm:mb-0 md:text-[20px] font-semibold">
               <li>
-                <a
+                <a aria-label="Read more about Seminole tax hike"
                   href="!#"
                   className="mr-4 text-white transition-all duration-500 hover:text-hover md:mr-6 "
                 >
@@ -21,7 +21,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
+                <a aria-label="Read more about Seminole tax hike"
                   href="!#"
                   className="mr-4 text-white transition-all duration-500 hover:text-hover md:mr-6"
                 >
@@ -29,7 +29,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
+                <a aria-label="Read more about Seminole tax hike"
                   href="!#"
                   className="mr-4 text-white transition-all duration-500 hover:text-hover md:mr-6 "
                 >
@@ -37,7 +37,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
+                <a aria-label="Read more about Seminole tax hike"
                   href="!#"
                   className="text-white transition-all duration-500 hover:text-hover"
                 >
@@ -61,35 +61,35 @@ const Footer = () => {
         />
 
         <div className="flex mt-4 space-x-5 justify-center sm:mt-0 flex-wrap">
-          <a
+          <a aria-label="Read more about Seminole tax hike"
             href="!#"
             className="md:mb-0 mb-3 text-white hover:text-hover hover:shadow-[0px_0px_20px_5px_#da2f68] bg-primary md:p-3  rounded-full transition-all
               duration-500 dark:hover:text-white"
           >
             <CgFacebook size={20} />
           </a>
-          <a
+          <a aria-label="Read more about Seminole tax hike"
             href="!#"
             className="md:mb-0 mb-3 text-white hover:text-hover hover:shadow-[0px_0px_20px_5px_#da2f68] bg-primary md:p-3  rounded-full hover: transition-all
               duration-500 dark:hover:text-white"
           >
             <BsDiscord size={20} />
           </a>
-          <a
+          <a aria-label="Read more about Seminole tax hike"
             href="!#"
             className="md:mb-0 mb-3 text-white hover:text-hover hover:shadow-[0px_0px_20px_5px_#da2f68] bg-primary md:p-3  rounded-full hover: transition-all
               duration-500 dark:hover:text-white"
           >
             <AiOutlineTwitter size={20} />
           </a>
-          <a
+          <a aria-label="Read more about Seminole tax hike"
             href="!#"
             className="md:mb-0 mb-3 text-white hover:text-hover hover:shadow-[0px_0px_20px_5px_#da2f68] bg-primary md:p-3  rounded-full hover: transition-all
               duration-500 dark:hover:text-white"
           >
             <AiFillGithub size={20} />
           </a>
-          <a
+          <a aria-label="Read more about Seminole tax hike"
             href="!#"
             className="md:mb-0 mb-3 text-white hover:text-hover hover:shadow-[0px_0px_20px_5px_#da2f68] bg-primary md:p-3  rounded-full hover: transition-all
               duration-500 dark:hover:text-white"
