@@ -56,9 +56,8 @@ const Explore = () => {
           loading={ex.isLoading}
           endPoint={mediaType}
         />
-        <div className="text-center">
+        
           <PaginationComponent  sort={Sort}/>
-        </div>
       </div>
     </div>
   );

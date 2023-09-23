@@ -11,7 +11,7 @@ const HeroSection = () => {
 };
 
   return (
-    <section className='min-h-screen main flex items-center justify-center'>
+    <section className='min-h-screen main flex items-center justify-center ' >
             <div className='text-white text-center'>
                 <h1 className='md:text-[90px] text-[50px] font-extrabold md:-mb-6 -mb-4 '>Welcome.</h1>
                 <p className='md:text-[24px] text-[18px]  mb-[40px] font-semibold'>Millions of movies, TV shows and people to discover. Explore now.</p>

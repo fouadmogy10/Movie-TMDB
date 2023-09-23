@@ -7,6 +7,14 @@
     max-width: 80%;
     margin: 0 auto;
   }}
+@layer utilities {
+  .paginationStyle {
+    @apply w-8 h-8 align-middle md:flex justify-center items-center   cursor-pointer leading-5 transition duration-150 ease-in  rounded-full text-center
+  }
+  .paginateBTN{
+    @apply h-8 w-8 h-8 align-middle  flex justify-center items-center rounded-full bg-gray-200 cursor-pointer
+  }
+}
 :root {
   --primary-color: #04152d;
   --gradient: linear-gradient(98.37deg, #f89e00 0.99%, #da2f68 100%);
