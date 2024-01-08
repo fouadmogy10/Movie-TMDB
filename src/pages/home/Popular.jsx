@@ -17,7 +17,11 @@ const Popular = () => {
         <span className="text-white text-[24px] font-bold">What's Popular</span>
         <SwitchTabs data={["Movies", "TV Shows"]} onTabChange={onTabChange} />
       </div>
-      <Slider data={data?.results ? data?.results : [1,2,3,4]} loading={loading} endpoint={endpoint}/>
+      <Slider
+        data={data?.results ? data?.results : [1, 2, 3, 4]}
+        loading={loading}
+        endpoint={endpoint}
+      />
     </div>
   );
 };

@@ -3,7 +3,7 @@
 }
 .movieImg img{
     overflow: hidden !important;
-    transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out !important;
 }
 .movieCard:hover img{
  transform: scale(1.2);
